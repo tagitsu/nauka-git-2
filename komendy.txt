@@ -1,0 +1,29 @@
+Komanda 1:
+
+npm install --save-dev html-validate
+
+added 45 packages, and audited 213 packages in 4s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+
+Komenda 2:
+
+html-validate *.html
+
+/Users/julia/Desktop/kodilla/modul03/nauka-git-2/index.html
+  17:14  error  <hgroup> is deprecated                                       deprecated
+  17:14  error  <hgroup> element is not permitted as content under <header>  element-permitted-content
+  58:84  error  Trailing whitespace                                          no-trailing-whitespace
+
+✖ 3 problems (3 errors, 0 warnings)
+
+More information:
+  https://html-validate.org/rules/deprecated.html
+  https://html-validate.org/rules/element-permitted-content.html
+  https://html-validate.org/rules/no-trailing-whitespace.html
+
