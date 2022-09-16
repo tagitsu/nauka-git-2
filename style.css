@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+.song-header {
+    height: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 235, 210);
+    color: rgb(31, 31, 31);
+}
+
+.song-title-wrapper {
+    padding: 20px;
+}
+
+.song-logo {
+    width: 50%;
+    height: 50%;
+}
+
+.song-lyrics {
+    padding: 10px 50px;
+    line-height: 2;
+    word-spacing: 2px;
+    background-color: rgb(31, 31, 31);
+    color: rgb(234, 235, 210);
+}
+
+.song-lyrics p:last-of-type {
+	padding: 20px;
+    font-size: 16px;
+}
+
+.song-sound {
+    padding: 30px 50px;
+    background-color: rgb(234, 235, 210);
+    color:rgb(31, 31, 31);
+    line-height: 1.3;
+}   
+
+.song-sound p {
+    padding-right: 20px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding-right: 20px;
+    transition: color .3s ease-in-out;
+}
+
+.fa-spotify:hover {
+    color: #1DB954;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
